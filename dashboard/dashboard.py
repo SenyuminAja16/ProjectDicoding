@@ -71,7 +71,7 @@ def create_total_registered_rent_df(df):
     total_registered_df = df.registered_x.sum()
     return total_registered_df
 
-hour_day_df = pd.read_csv('hour_day_df.csv')
+hour_day_df = pd.read_csv('C:\Belajar Data\Project dicoding\Data\Bike-sharing-dataset\dashboard\hour_day_df.csv')
 
 datetime_columns = ['dteday']
 hour_day_df.sort_values(by='dteday', inplace=True)
